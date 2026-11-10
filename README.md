@@ -3,11 +3,10 @@
 **A cost-model, RTL and synthesis study of sparsity-aware dataflow selection for DNN
 accelerators**, built on the VersaAccel reconfigurable PE array (16×16, 256 PEs).
 
-> **Status: research in progress — results are unpublished and may change before a paper is
-> submitted.** Every number here is regenerated from code in this repository (see
-> *Reproducing*); the authoritative record of each one, with its source file and command, is
-> **[`PROJECT_REPORT.md`](PROJECT_REPORT.md)**. New to the project? Start with
-> **[`PROJECT_STORY.md`](PROJECT_STORY.md)** — the whole project in plain language, in order.
+Every number here is regenerated from code in this repository (see *Reproducing*); the full
+record of each one, with its source file and command, is
+**[`PROJECT_REPORT.md`](PROJECT_REPORT.md)**. New to the project? Start with
+**[`PROJECT_STORY.md`](PROJECT_STORY.md)** — the whole project in plain language, in order.
 
 It asks when switching dataflow per layer is worth building, and finds that the answer is set
 less by *how many* zeros a workload has than by *where they are* relative to the array's tile
